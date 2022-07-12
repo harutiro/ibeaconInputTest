@@ -16,6 +16,7 @@ import pub.devrel.easypermissions.EasyPermissions
 
 class MainActivity : AppCompatActivity() {
 
+    //bindingの部分
     private lateinit var binding: ActivityMainBinding
 
     //tagName
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     val IBEACON_FORMAT = "m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"
     //パーミッション確認用のコード
     private val PERMISSION_REQUEST_CODE = 1
-
+    //出力結果を保存する場所
     var outputText = ""
 
     //どのパーミッションを許可したいかリスト化する
